@@ -2,7 +2,7 @@
 /// transform HTML code into plain text.
 ///
 /// If desired you can control and extend all transformations.
-library enough_mail_html;
+library mime_html_dart;
 
 export 'src/converter.dart';
 export 'src/enough_mail_html_base.dart';

@@ -1,3 +1,9 @@
+## 3.0.0
+- **BREAKING**: Package renamed from `enough_mail_html` to `mime_html_dart`
+- **BREAKING**: Replaced `enough_mail` dependency with `mime_dart` from https://github.com/canarymail/mime_dart
+- Update all imports to use `package:mime_html_dart/mime_html_dart.dart`
+- Update library name to `mime_html_dart`
+
 ## 2.0.2
 - Update dependencies
 

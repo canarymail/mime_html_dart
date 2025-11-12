@@ -1,7 +1,7 @@
-name: enough_mail_html
-description: Generate HTML from an email mime message and creates plain text from HTML. Eases handling of `MimeMessage` in the `enough_mail` package.
-version: 2.0.2
-homepage: https://github.com/Enough-Software/enough_mail_html
+name: mime_html_dart
+description: Generate HTML from email MIME messages and create plain text from HTML. Eases handling of `MimeMessage` from the `mime_dart` package.
+version: 3.0.0
+homepage: https://github.com/canarymail/mime_html_dart
 topics:
   - email
   - mime

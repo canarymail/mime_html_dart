@@ -1,7 +1,7 @@
 Generate html code from any email mime message for displaying it.
  
 ## Usage
-The `enough_mail_html` package defines the `transformToHtml()` extension method on `MimeMessage` of the [mime_dart](https://github.com/canarymail/mime_dart) package.
+The `mime_html_dart` package defines the `transformToHtml()` extension method on `MimeMessage` of the [mime_dart](https://github.com/canarymail/mime_dart) package.
 
 This method will always generate HTML, specifically also for plain text or empty messages.
 You can define your custom processors
@@ -13,7 +13,7 @@ A simple usage example:
 
 ```dart
 import 'package:mime_dart/mime_dart.dart';
-import 'package:enough_mail_html/enough_mail_html.dart';
+import 'package:mime_html_dart/mime_html_dart.dart';
 
 String generateHtml(MimeMessage mimeMessage) {
   return mimeMessage.transformToHtml(
@@ -30,7 +30,7 @@ String generatePlainText(String htmlText) {
 More examples:
 ```dart
 import 'package:mime_dart/mime_dart.dart';
-import 'package:enough_mail_html/enough_mail_html.dart';
+import 'package:mime_html_dart/mime_html_dart.dart';
 import 'package:html/dom.dart';
 
 String simpleTransformExample(MimeMessage mimeMessage) {
@@ -70,9 +70,10 @@ Add this dependency your `pubspec.yaml` file:
 
 ```
 dependencies:
-  enough_mail_html: ^2.0.0
+  mime_html_dart:
+    git:
+      url: https://github.com/canarymail/mime_html_dart.git
 ```
-The latest version or `enough_mail_html` is [![enough_mail_html version](https://img.shields.io/pub/v/enough_mail_html.svg)](https://pub.dartlang.org/packages/enough_mail_html).
 
 Note: you might need to set a dependency override for the xml package:
 ```
@@ -84,7 +85,7 @@ dependency_overrides:
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: https://github.com/enough-software/enough_mail_html/issues
+[tracker]: https://github.com/canarymail/mime_html_dart/issues
 
 ## License
 

@@ -1,6 +1,6 @@
 import 'package:mime_dart/mime_dart.dart';
-import 'package:enough_mail_html/enough_mail_html.dart';
-import 'package:enough_mail_html/src/text/links_text_transformer.dart';
+import 'package:mime_html_dart/mime_html_dart.dart';
+import 'package:mime_html_dart/src/text/links_text_transformer.dart';
 import 'package:test/test.dart';
 
 void main() {
