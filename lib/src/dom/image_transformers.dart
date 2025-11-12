@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:enough_mail/mime.dart';
+import 'package:mime_dart/mime_dart.dart';
 import 'package:html/dom.dart';
 import 'package:image/image.dart' as img;
 

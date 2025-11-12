@@ -1,4 +1,4 @@
-import 'package:enough_mail/enough_mail.dart';
+import 'package:mime_dart/mime_dart.dart';
 import 'package:html/dom.dart';
 
 import '../enough_mail_html_base.dart';

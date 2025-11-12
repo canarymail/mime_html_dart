@@ -1,7 +1,7 @@
 Generate html code from any email mime message for displaying it.
  
 ## Usage
-The `enough_mail_html` package defines the `transformToHtml()` extension method on `MimeMessage` of the [enough_mail](https://pub.dev/packages/enough_mail) package.
+The `enough_mail_html` package defines the `transformToHtml()` extension method on `MimeMessage` of the [mime_dart](https://github.com/canarymail/mime_dart) package.
 
 This method will always generate HTML, specifically also for plain text or empty messages.
 You can define your custom processors
@@ -12,7 +12,7 @@ You can define your custom processors
 A simple usage example:
 
 ```dart
-import 'package:enough_mail/enough_mail.dart';
+import 'package:mime_dart/mime_dart.dart';
 import 'package:enough_mail_html/enough_mail_html.dart';
 
 String generateHtml(MimeMessage mimeMessage) {
@@ -29,7 +29,7 @@ String generatePlainText(String htmlText) {
 
 More examples:
 ```dart
-import 'package:enough_mail/enough_mail.dart';
+import 'package:mime_dart/mime_dart.dart';
 import 'package:enough_mail_html/enough_mail_html.dart';
 import 'package:html/dom.dart';
 

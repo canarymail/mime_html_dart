@@ -10,16 +10,12 @@ environment:
   sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
-  enough_mail: ^2.1.7
+  mime_dart:
+    git:
+      url: https://github.com/canarymail/mime_dart.git
   html: ^0.15.0
   image: ^4.0.0
-
-dependency_overrides:
-  # out-comment for git or local development
-  # enough_mail:
-  #   git:
-  #     url: https://github.com/Enough-Software/enough_mail.git
-  #   path: ../enough_mail/
+  json_annotation: ^4.8.0
 
 dev_dependencies:
   lints: ^6.0.0
